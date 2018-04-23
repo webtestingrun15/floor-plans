@@ -1,0 +1,15 @@
+.gold {
+  color: var(--gold);
+}
+
+.black {
+  color: var(--black);
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.bold-font {
+  font-weight: 900;
+}

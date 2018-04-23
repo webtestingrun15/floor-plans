@@ -1,13 +1,8 @@
-:root {
-  --gold: #e9a92f;
-  --black: #292937;
-}
-
 html {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   color: var(--black);
 }
 
@@ -17,10 +12,6 @@ html {
   box-sizing: inherit;
 }
 
-.gold {
-  color: var(--gold);
-}
-
-.black {
-  color: var(--black);
+img {
+  max-width: 100%;
 }
