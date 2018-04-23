@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="temp/styles/styles.css" />
     <!-- <script src="main.js"></script> -->
 </head>
@@ -129,10 +129,10 @@
                 <img src="./assets/images/contact-image.jpg" alt="Girl with hat">
             </div>
             <div class="contact-form">
-                <form action="POST">
-                    <input type="text" name="fname" id="fname" placeholder="FIRST NAME">
-                    <input type="text" name="lname" id="lname" placeholder="LAST NAME">
-                    <input type="email" name="email" id="email" placeholder="EMAIL">
+                <form action="#">
+                    <input type="text" name="fname" id="fname" placeholder="FIRST NAME" autocomplete="name">
+                    <input type="text" name="lname" id="lname" placeholder="LAST NAME" autocomplete="family-name">
+                    <input type="email" name="email" id="email" placeholder="EMAIL" autocomplete="email">
                     <select name="chose" id="choose">
                         <option selected value="HOW DID YOU HEAR ABOUT US? ">HOW DID YOU HEAR ABOUT US?</option>
                     </select>

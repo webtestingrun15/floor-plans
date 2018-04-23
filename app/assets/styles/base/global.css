@@ -3,17 +3,18 @@
   --black: #292937;
 }
 
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--black);
+}
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-body {
-  font-family: "Plato", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  color: var(--black);
 }
 
 .gold {
