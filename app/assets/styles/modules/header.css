@@ -1,9 +1,17 @@
 .header {
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
-  font-size: 35px;
+  font-size: 1.5rem;
   align-items: center;
   padding: 0 30px 0 20px;
+  @mixin atLarge {
+    grid-template-columns: 2fr 1fr 2fr;
+    font-size: 1rem;
+  }
+  @mixin atMedium {
+    /* grid-template-columns: repeat(auto-fit, min-max(100px, 1fr)); */
+    font-size: 0.7rem;
+  }
 }
 
 .header-menu {
@@ -13,14 +21,29 @@
   &_text {
     padding-left: 10px;
   }
+  @mixin atLarge {
+    grid-template-columns: 1fr 1fr 5fr;
+    &_phone {
+      padding-left: 10px;
+    }
+  }
+  @mixin atMedium {
+    grid-template-columns: 1fr 4fr;
+  }
+  &_phone {
+    display: none;
+  }
 }
 
 .header-links {
   &__list {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     justify-items: end;
     list-style: none;
+  }
+  @mixin atMedium {
+    grid-template-columns: 1fr 1fr;
   }
   &__anchor {
     text-decoration: none;

@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-rows: 110px auto auto auto;
+  grid-template-rows: 1fr auto auto auto;
 }
 
 .wrapper > * {
