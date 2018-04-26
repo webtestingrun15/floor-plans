@@ -13,3 +13,14 @@
 .bold-font {
   font-weight: 900;
 }
+
+.hide-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}

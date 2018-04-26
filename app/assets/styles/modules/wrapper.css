@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 140px auto auto auto;
+  /* padding: 20px; */
+}
+
+.wrapper > * {
+  border: 1px solid black;
+}
