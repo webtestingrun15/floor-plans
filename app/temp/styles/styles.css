@@ -370,3 +370,27 @@ footer {
   grid-gap: 10px;
   grid-template-columns: 3fr 1fr;
 }
+.hero-banner {
+  position: relative;
+}
+.hero-banner__image {
+    display: block;
+  }
+.hero-banner__text {
+    position: absolute;
+    font-size: 80px;
+    font-size: 5rem;
+    line-height: 32px;
+    line-height: 2rem;
+    width: 100%;
+    right: 20%;
+    top: 35%;
+    color: white;
+    text-align: center;
+  }
+.hero-banner__down {
+    position: absolute;
+    width: 17%;
+    top: 71%;
+    left: 83%;
+  }

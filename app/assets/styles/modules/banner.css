@@ -1,0 +1,22 @@
+.hero-banner {
+  position: relative;
+  &__image {
+    display: block;
+  }
+  &__text {
+    position: absolute;
+    font-size: 5rem;
+    line-height: 2rem;
+    width: 100%;
+    right: 20%;
+    top: 35%;
+    color: white;
+    text-align: center;
+  }
+  &__down {
+    position: absolute;
+    width: 17%;
+    top: 71%;
+    left: 83%;
+  }
+}
