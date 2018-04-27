@@ -1,14 +1,14 @@
 .header {
-  font-size: 1.3rem;
-  /* display: flex; */
-  /* justify-content: space-between; */
+  font-size: 1rem;
   font-weight: 400;
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
-  /* grid-gap: 20px; */
   align-items: center;
   padding: 0 20px;
   align-content: center;
+  @mixin atLarge {
+    font-size: 1.3rem;
+  }
 }
 
 .header-menu {
@@ -21,31 +21,9 @@
   }
 }
 
-.header-phone {
-  /* flex: 2; */
-}
-
 .login-links {
   display: grid;
   justify-items: end;
+  grid-gap: 10px;
   grid-template-columns: 3fr 1fr;
-}
-
-/* .login-links ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-} */
-
-.login-links li {
-  /* display: grid; */
-}
-
-.header-logo {
-  /* background-image: url("../../../assets/images/icons/logo.png"); */
-  /* background-repeat: no-repeat; */
-  /* text-indent: -9999999px; */
-  /* height: 500px; */
-  /* width: 500px; */
-  /* flex: 1; */
 }

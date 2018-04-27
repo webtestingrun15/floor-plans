@@ -1,7 +1,27 @@
 .wrapper {
   display: grid;
-  grid-template-rows: 140px auto auto auto;
-  /* padding: 20px; */
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "header"
+    "banner"
+    "floor-plans"
+    "contact"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+.hero-banner {
+  grid-area: banner;
+}
+
+.floor-plans {
+  grid-area: floor-plans;
+}
+
+footer {
+  grid-area: footer;
 }
 
 .wrapper > * {
