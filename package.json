@@ -19,7 +19,6 @@
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.1",
     "gulp-watch": "^5.0.0",
-    "postcss-grid-kiss": "^1.4.2",
     "postcss-import": "^11.1.0",
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^3.0.0",
