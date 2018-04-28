@@ -274,7 +274,7 @@ template {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -378,19 +378,49 @@ footer {
   }
 .hero-banner__text {
     position: absolute;
-    font-size: 80px;
-    font-size: 5rem;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    font-weight: 100;
     line-height: 32px;
     line-height: 2rem;
-    width: 100%;
-    right: 20%;
-    top: 35%;
+    width: 50%;
+    right: 48%;
+    top: 41%;
     color: white;
     text-align: center;
+  }
+@media (min-width: 530px) {
+.hero-banner__text {
+      font-size: 1.8em;
+      width: 45%;
+      top: 43%
+  }
+  }
+@media (min-width: 800px) {
+.hero-banner__text {
+      font-size: 2.5rem
+  }
+  }
+@media (min-width: 1200px) {
+.hero-banner__text {
+      font-size: 4.6rem
+  }
   }
 .hero-banner__down {
     position: absolute;
     width: 17%;
     top: 71%;
     left: 83%;
+  }
+.hero-banner__text_bl {
+    position: absolute;
+    width: 17%;
+    left: 5%;
+    border: 1px solid #e9a92f;
+  }
+.hero-banner__text_br {
+    position: absolute;
+    width: 17%;
+    right: 5%;
+    border: 1px solid #e9a92f;
   }

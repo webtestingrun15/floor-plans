@@ -5,18 +5,42 @@
   }
   &__text {
     position: absolute;
-    font-size: 5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
     line-height: 2rem;
-    width: 100%;
-    right: 20%;
-    top: 35%;
+    width: 50%;
+    right: 48%;
+    top: 41%;
     color: white;
     text-align: center;
+    @mixin atSmall {
+      font-size: 1.8em;
+      width: 45%;
+      top: 43%;
+    }
+    @mixin atMedium {
+      font-size: 2.5rem;
+    }
+    @mixin atLarge {
+      font-size: 4.6rem;
+    }
   }
   &__down {
     position: absolute;
     width: 17%;
     top: 71%;
     left: 83%;
+  }
+  &__text_bl {
+    position: absolute;
+    width: 17%;
+    left: 5%;
+    border: 1px solid var(--gold);
+  }
+  &__text_br {
+    position: absolute;
+    width: 17%;
+    right: 5%;
+    border: 1px solid var(--gold);
   }
 }
