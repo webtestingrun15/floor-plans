@@ -14,15 +14,29 @@
 .slider {
   display: flex;
   flex-wrap: wrap;
-
+  align-content: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
   &__slide {
     flex-basis: 390px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #dddcdf;
-    /* display: flex;
-    justify-content: center; */
+    /* max-width: 380px; */
     /* flex: 200; */
+    margin: 10px;
+    /* height: 400px; */
+    padding: 15px;
+    border: 1px solid #dddcdf;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__slide > * {
+    flex: 1 1 100%;
+  }
+  &__details {
+    align-self: flex-end;
+    background: blanchedalmond;
+    font-size: 1.2rem;
   }
   &__title {
     font-weight: 400;
