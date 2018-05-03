@@ -452,8 +452,8 @@ footer {
   margin: 0 auto;
 }
 .slider__slide {
-    -ms-flex-preferred-size: 390px;
-        flex-basis: 390px;
+    -ms-flex-preferred-size: 220px;
+        flex-basis: 220px;
     /* max-width: 380px; */
     /* flex: 200; */
     margin: 10px;
@@ -466,6 +466,14 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+.slider__slidemixin atMedium {
+      -ms-flex-preferred-size: 250px;
+          flex-basis: 250px;
+    }
+.slider__slidemixin atLarge {
+      -ms-flex-preferred-size: 390px;
+          flex-basis: 390px;
+    }
 .slider__slide > * {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
