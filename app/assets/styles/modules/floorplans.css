@@ -28,11 +28,12 @@
     border: 1px solid #dddcdf;
     display: flex;
     flex-wrap: wrap;
-    &mixin atMedium {
-      flex-basis: 250px;
+
+    @mixin atMedium {
+      flex-basis: 200px;
     }
-    &mixin atLarge {
-      flex-basis: 390px;
+    @mixin atLarge {
+      flex-basis: 420px;
     }
   }
 
