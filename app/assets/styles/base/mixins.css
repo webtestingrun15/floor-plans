@@ -15,3 +15,15 @@
     @mixin-content;
   }
 }
+
+@define-mixin atHD {
+  @media (min-width: 1800px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSuper {
+  @media (min-width: 2200px) {
+    @mixin-content;
+  }
+}
